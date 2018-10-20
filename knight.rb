@@ -8,7 +8,7 @@ def knight_moves(a,b)
     loop do
         current_square = queue.shift
         # found: add it to the path and exit loop
-        if current_square.x == b[0] and current_square.y == b[1]
+        if current_square.x == b[0] && current_square.y == b[1]
             path.push(current_square)
             break
         end
